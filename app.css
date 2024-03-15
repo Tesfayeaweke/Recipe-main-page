@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    width: 100%;
+    max-width: 375px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+.picture{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.headings{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 24px;
+}
+#header-first{
+    color: hsl(24, 5%, 18%);
+    font-size: 1.5em;
+    margin: 1em 0;
+
+}
+
+article,ul,ol,div,p{
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+article{
+    margin-bottom: 24px;
+}
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    /* margin-bottom: 24px; */
+    padding: 0.5em 1em;
+    /* list-style-type: disc; */
+}
+
+.preparation-time .preparation-list, .ingredients .ingredients-list{
+    list-style-type: disc;
+    padding: 0 1.5em;
+}
+.ingredients{
+    padding: 24px 0;
+    border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+.ingredients-list{
+    margin: 1em 0;
+    /* border: 2px hsl(30, 18%, 87%) solid; */
+}
+#preparation-header{
+    color: hsl(332, 51%, 32%);
+}
+
+.instructions ol .ol-titles, .preparation-time .preparation-list .ol-titles{
+    font-weight: 500;
+}
+
+.instructions{
+    margin: 24px 0;
+
+}
+.instructions ol{ 
+    
+    list-style-type : decimal;
+    margin-left: 1.5em;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+     */
+   
+    
+} 
+.instructions ol li{ 
+    margin: 24px 0;
+    
+    
+    
+   
+    
+} 
+.instructions ol li::marker{ 
+    color: hsl(14, 45%, 36%);
+    
+    
+    
+} 
+section:last-of-type table{
+    width: 100%;
+    font-weight: 300;
+    
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin: 24px 0;
+    border-spacing: 100px 0;
+
+}
+
+section:last-of-type table td{
+   padding: 1em;
+   border-bottom: 1px hsl(30, 18%, 87%) solid ;
+}
+ section:last-of-type table .second{
+   color: hsl(14, 45%, 36%);
+   font-weight: 600;
+} 
+
+
+
+ 
